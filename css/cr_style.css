@@ -36596,7 +36596,7 @@ section.shadow,
 
 .pricing .pricing-value .price:after {
 	position: relative;
-	content: "HUF";
+	content: "R$";
 }
 
 .pricing .pricing-value .price.yearly:after {
