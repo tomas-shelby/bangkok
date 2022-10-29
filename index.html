@@ -1,0 +1,496 @@
+<!--
+   Created By:
+    
+    ██╗░░██╗░█████╗░██╗░░░██╗░█████╗░░█████╗░░██████╗  ██████╗░░█████╗░████████╗░█████╗░███╗░░██╗██████╗░
+    ██║░██╔╝██╔══██╗██║░░░██║██╔══██╗██╔══██╗██╔════╝  ██╔══██╗██╔══██╗╚══██╔══╝██╔══██╗████╗░██║██╔══██╗
+    █████═╝░██║░░██║╚██╗░██╔╝███████║██║░░╚═╝╚█████╗░  ██████╦╝██║░░██║░░░██║░░░██║░░██║██╔██╗██║██║░░██║
+    ██╔═██╗░██║░░██║░╚████╔╝░██╔══██║██║░░██╗░╚═══██╗  ██╔══██╗██║░░██║░░░██║░░░██║░░██║██║╚████║██║░░██║
+    ██║░╚██╗╚█████╔╝░░╚██╔╝░░██║░░██║╚█████╔╝██████╔╝  ██████╦╝╚█████╔╝░░░██║░░░╚█████╔╝██║░╚███║██████╔╝
+    ╚═╝░░╚═╝░╚════╝░░░░╚═╝░░░╚═╝░░╚═╝░╚════╝░╚═════╝░  ╚═════╝░░╚════╝░░░░╚═╝░░░░╚════╝░╚═╝░░╚══╝╚═════╝░
+
+    Framework: Bootstrap 4 
+    Owner and Customer: caseRoleplay (2020) 
+-->   
+<!doctype html>
+<html lang="hu">
+   <head>
+      <meta charset="utf-8">
+      <meta name="description" content="">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      <link rel="apple-touch-icon" href="apple-touch-icon.png">
+      <link rel="icon" href="favicon.ico">
+      <link href="https://fonts.googleapis.com/css?family=Poppins:100,300,400,700,900" rel="stylesheet">
+      <link href="https://fonts.googleapis.com/css?family=Caveat" rel="stylesheet">
+      <title>💚 | Bangkok City Roleplay</title>
+      <link rel="stylesheet" href="css\cr_style.css">
+   </head>
+   <body>
+      <nav class="st-nav navbar main-nav navigation fixed-top" id="main-nav">
+         <div class="container">
+            <ul class="st-nav-menu nav navbar-nav">
+               <li class="st-nav-section nav-item">
+                  <a href="#" class="navbar-brand"><img src="images/logo.png" class="logo logo-sticky" style="filter: drop-shadow(5px 5px 5px rgba(255, 255, 255, 0.3));"></a>
+               </li>
+               <li class="st-nav-section st-nav-secondary nav-item">
+                  <a class="btn btn-info mr-3 px-3" href="https://forum.caseroleplay.com" target="_blank"><i class="fas fa-sign-in-alt d-none d-md-inline mr-md-0 mr-lg-2 text-white"></i> <span class="d-md-none d-lg-inline text-white">FÓRUM</span> </a>
+                  <a class="btn btn-rounded btn-outline mr-3 px-3" href="https://ucp.caseroleplay.com" target="_blank"><i class="fas fa-sign-in-alt d-none d-md-inline mr-md-0 mr-lg-2"></i> <span class="d-md-none d-lg-inline">Sign In</span> </a>
+                  <a class="btn btn-rounded btn-solid px-3" href="https://ucp.caseroleplay.com" target="_blank"><i class="fas fa-user-plus d-none d-md-inline mr-md-0 mr-lg-2"></i> <span class="d-md-none d-lg-inline">Sign Up</span></a>
+               </li>
+               <li class="st-nav-section st-nav-mobile nav-item"> 
+                  <button class="st-root-link navbar-toggler" type="button"><span class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span></button>
+                  <div class="st-popup">
+                     <div class="st-popup-container">
+                        <a class="st-popup-close-button">FECHO</a>
+                        <div class="st-dropdown-content-group">
+                           <h4 class="text-uppercase regular">PÁGINAS ADICIONAIS</h4>
+                        </div>
+                     </div>
+                  </div>
+               </li>
+            </ul>
+         </div>
+      </nav>
+      <main class="overflow-hidden allpage-background overlay overlay-all-page">
+         <header class="header app-landing-2-header section page-background-controls">
+            <div class="shapes-container">
+               <div class="static-shape background-shape-main header-background-animation" style="box-shadow: 0 0px 40px -10px rgba(255, 255, 255, 0.3);"></div>
+               <div class="shape shape-animated header-index" data-aos="fade-down-right" data-aos-duration="1500" data-aos-delay="100"></div>
+               <div class="shape shape-animated header-index" data-aos="fade-down" data-aos-duration="1000" data-aos-delay="100">
+               </div>
+               <div class="shape shape-animated header-index" data-aos="fade-up-left" data-aos-duration="500" data-aos-delay="200">
+               </div>
+               <div class="shape shape-animated header-index" data-aos="fade-up" data-aos-duration="500" data-aos-delay="200"></div>
+               <div class="animation-shape shape-cross header-index">
+                  <div class="animation--rotating"></div>
+               </div>
+               <div class="static-shape shape-ring shape-ring-1 header-index">
+                  <div class="animation animation--rotating"></div>
+               </div>
+               <div class="static-shape shape-ring shape-ring-2 header-index">
+                  <div class="animation animation--rotating-clockwise"></div>
+               </div>
+               <div class="static-shape pattern-dots-2 header-index"></div>
+            </div>
+            <div class="container">
+               <div class="row align-items-center gap-y">
+                  <div class="col-md-6 mt-9">
+                     <img src="images/logo.png" alt="Logohelye" class="img-fluid ml-8" style="width: 35%; filter: drop-shadow(20px 20px 20px rgba(255, 255, 255, 0.3));">
+                     <h2 class=" bold text-light opacity-8 mt-4" style="text-shadow: 1px 1px 30px , 1px 1px 20px rgba(183, 135, 0, 0.1), 1px 1px 20px rgba(183, 135, 0, 0.1);">Escolha o seu caminho e experimente-o imediatamente</h2>
+                     <p class="lead text-white opacity-5" style="text-shadow: 1px 1px 30px , 1px 1px 20px rgba(183, 135, 0, 0.1), 1px 1px 20px rgba(183, 135, 0, 0.1);">Aproveite seu tempo livre conosco, enquanto você pode estar com seus amigos e ter experiências para toda a vida em um mundo virtual.
+                     </p>
+                     <nav class="nav flex-column flex-md-row mt-5">
+                        <a href="ts3server://ts.caseroleplay.com" class="nav-link py-3 px-4 btn btn-rounded btn-download btn-info text-contrast mr-0 mr-md-4 mb-4 mb-md-0">
+                           <img src="https://img.icons8.com/color/48/000000/discord-logo.png" class="icon icon-md" alt="...">
+                           <p class="ml-2"><span class="small bold">100 usuários</span> <span class="d-block bold text-contrast">Discord</span></p>
+                        </a>
+                        <a href="mtasa://167.114.217.206:22043
+                        " class="nav-link py-3 px-4 btn btn-rounded btn-download btn-light text-darker">
+                           <img src="https://i.imgur.com/G3wTPAC.png" class="icon icon-md" alt="...">
+                           <p class="ml-2"><span class="small bold">100 usuários</span> <span class="d-block bold text-darker">Conectar No Servidor</span>
+                           </p>
+                        </a>
+                     </nav>
+                     <nav class="nav social-icons mt-4">
+                        <a href="https://www.facebook.com" target="_blank" class="mr-3 text-white opacity-8" style="text-shadow: 1px 1px 30px , 1px 1px 20px rgba(183, 135, 0, 0.1), 1px 1px 20px rgba(183, 135, 0, 0.1);"><i class="fab fa-facebook-f" style="font-size: 30px;"></i></a>
+                     </nav>
+                  </div>
+                  <div class="col-md-6">
+                     <div style="height: 550px; transform: rotate3d(2, -1, -3.5, -0.1turn); ">
+                        <div class="card border-0 bg-transparent">
+                           <a href="" class="alpha-3 p-6 ml-5 image-background cover" style="background-image: url(https://media.sg.hu/kep/2019_12/need_for_speed_heat_16.jpg); border-radius: 60px; box-shadow: 0 0px 300px -10px rgba(52, 179, 253, 0.5);" data-effect="mfp-fade" data-type="iframe">
+                              <p class="text-center text-white" style="text-shadow: 1px 1px 30px , 1px 1px 20px rgba(183, 135, 0, 0.1), 1px 1px 20px rgba(183, 135, 0, 0.1);">PROJETO TRAILER | EM BREVE...</p>
+                              <div class="content text-center">
+                                 <svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1" stroke-linecap="round" stroke-linejoin="round" class="feather feather-play stroke-contrast">
+                                    <polygon points="5 3 19 12 5 21 5 3"></polygon>
+                                 </svg>
+                              </div>
+                           </a>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </header>
+         <section class="section trending-design page-background-controls">
+            <div class="shapes-container">
+               <div class="shape shape-square header-index" data-aos="flip-right" style="border-color: #3d7abc; filter: drop-shadow(30px 20px 20px rgba(90, 172, 238, 0.3));">
+               </div>
+               <div class="shape shape-ring shape-ring-2 header-index"></div>
+            </div>
+            <div class="container bring-to-front">
+               <div class="row align-items-center">
+                  <div class="col-md-12 text-center text-md-left">
+                     <div class="section-heading text-center">
+                        <i class="fas fa-child font-lg text-white opacity-8" style="text-shadow: 1px 1px 30px , 1px 1px 20px rgba(255, 255, 255, 0.1), 1px 1px 20px rgba(230, 230, 255, 0.1);"></i>
+                        <h2 class="light font-md display-md-4 text-light text-center mt-0 text-uppercase mt-2" style="text-shadow: 1px 1px 30px , 1px 1px 20px rgba(255, 255, 255, 0.1), 1px 1px 20px rgba(230, 230, 255, 0.1); font-weight: 400 !important;">POR QUE VOCÊ NOS ESCOLHE?</h2>
+                        <h3 class="light font-sm text-light text-center mt-1" style="text-shadow: 1px 1px 30px , 1px 1px 20px rgba(255, 255, 255, 0.1), 1px 1px 20px rgba(230, 230, 255, 0.1);">Nosso servidor é um dos servidores mais inovadores e de crescimento mais rápido no Brasil, facilitado por muitos anos de experiência <br> na gestão. Esforçamo-nos para lhe proporcionar um servidor com excelentes condições .</h3>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </section>
+         <section class="section page-background-controls">
+            <img src="https://i.pinimg.com/originals/d8/1e/74/d81e74114ff2917bd78e76710e1cc53b.png" class="char-left aos-init aos-animate" data-aos="fade-right" style="pointer-events: none; visibility: visible; z-index: 1; filter: drop-shadow(30px -22px 20px rgba(90, 172, 238, 0.3)); width: 14%;">
+            <div class="container pt-0">
+               <div class="row gap-y text-center">
+                  <div class="col-12 col-md-4 py-4 px-5 d-flex flex-column">
+                     <div class="icon-shape">
+                        <div class="rounded-circle p-3 d-flex align-items-center justify-content-center icon-xl center-xy shadow-light-lg shadow-hover-circle" style="background-color: #272727;"><i class="fas fa-gamepad font-md text-info"></i></div>
+                     </div>
+                     <h4 class="text-white bold opacity-7 text-uppercase" style="margin-top: 60px; text-shadow: 1px 1px 30px , 1px 1px 20px rgba(183, 135, 0, 0.1), 1px 1px 20px rgba(183, 135, 0, 0.1);">MODO DE JOGO</h4>
+                     <p class="mt-n2 text-white opacity-5" style="text-shadow: 1px 1px 30px , 1px 1px 20px rgba(183, 135, 0, 0.1), 1px 1px 20px rgba(183, 135, 0, 0.1);">Nosso jeito é o mérito de nossos desenvolvedores. São eles que trabalharam durante meses para criar um ambiente jogável com tantas opções quanto possível.</p>
+                  </div>
+                  <div class="col-12 col-md-4 py-4 px-5 d-flex flex-column">
+                     <div class="icon-shape">
+                        <div class="rounded-circle p-3 d-flex align-items-center justify-content-center icon-xl center-xy shadow-light-lg shadow-hover-circle" style="background-color: #272727;"><i class="fas fa-users font-md text-warning"></i></div>
+                     </div>
+                     <h4 class="text-white bold opacity-7" style="margin-top: 60px; text-shadow: 1px 1px 30px , 1px 1px 20px rgba(183, 135, 0, 0.1), 1px 1px 20px rgba(183, 135, 0, 0.1);" >EQUIPE</h4>
+                     <p class="mt-n2 text-white opacity-5" style="text-shadow: 1px 1px 30px , 1px 1px 20px rgba(183, 135, 0, 0.1), 1px 1px 20px rgba(183, 135, 0, 0.1);">Todos têm um papel a cumprir em nossa equipe e todos buscam a precisão. Isso é essencial para um projeto sério, então entrar também é um procedimento completamente diferente.</p>
+                  </div>
+                  <div class="col-12 col-md-4 py-4 px-5 d-flex flex-column">
+                     <div class="icon-shape">
+                        <div class="rounded-circle p-3 d-flex align-items-center justify-content-center icon-xl center-xy shadow-light-lg shadow-hover-circle" style="background-color: #272727;"><i class="fas fa-terminal font-md text-success"></i></div>
+                     </div>
+                     <h4 class="text-white bold opacity-7" style="margin-top: 60px; text-shadow: 1px 1px 30px , 1px 1px 20px rgba(183, 135, 0, 0.1), 1px 1px 20px rgba(183, 135, 0, 0.1);">ESTABILIDADE</h4>
+                     <p class="mt-n2 text-white opacity-5" style="text-shadow: 1px 1px 30px , 1px 1px 20px rgba(183, 135, 0, 0.1), 1px 1px 20px rgba(183, 135, 0, 0.1);">Por trás do projeto está um fundo financeiro estável, que simboliza um futuro brilhante à frente do projeto e das novidades.</p>
+                  </div>
+               </div>
+            </div>
+         </section>
+         <section class="block bg-contrast">
+            <div class="icons-wrapper position-absolute" style="z-index: 0; filter: blur(3px);" >
+               <div class="floating icon icon-xl rounded-circle p-3 shadow m-0 absolute d-flex justify-content-center align-items-center aos-init aos-animate" style="left: 100px; top: 25px; background-color: #272727;" data-aos="fade-left"><i class="fas fa-car text-white opacity-7" style="font-size: 40px;"></i></div>
+               <div class="floating icon icon-xxl rounded-circle p-3 shadow m-0 absolute d-flex justify-content-center align-items-center aos-init aos-animate" style="left: 1650px; top: 30px; background-color: #272727;" data-aos="fade-left"><i class="fas fa-home text-white opacity-7" style="font-size:65px;"></i></div>
+               <div class="floating icon icon-xxl rounded-circle p-3 shadow m-0 absolute d-flex justify-content-center align-items-center aos-init aos-animate" style="left: 1550px; top: 180px; background-color: #272727;" data-aos="fade-left"><i class="fas fa-users text-white opacity-7" style="font-size: 55px;"></i></div>
+               <div class="floating icon icon-2xl rounded-circle p-3 shadow m-0 absolute d-flex justify-content-center align-items-center aos-init aos-animate" style="left: 160px; top: 100px; background-color: #272727;" data-aos="fade-left"><i class="fas fa-comment-dollar text-white opacity-7" style="font-size: 90px;"></i></div>
+               <div class="floating icon icon-xxl rounded-circle p-3 shadow m-0 absolute d-flex justify-content-center align-items-center aos-init aos-animate" style="left: 120px; top: 530px; background-color: #272727;" data-aos="fade-left"><i class="fas fa-shopping-bag text-white opacity-7" style="font-size: 65px;"></i></div>
+               <div class="floating icon icon-xl rounded-circle p-3 shadow m-0 absolute d-flex justify-content-center align-items-center aos-init aos-animate" style="left: 40px; top: 200px; background-color: #272727;" data-aos="fade-left"><i class="fas fa-gift text-white opacity-7" style="font-size: 40px;"></i></div>
+            </div>
+            <div id="bganimation1"></div>
+            <div class="container p-5">
+               <div class="row align-items-center text-center text-lg-left">
+                  <div class="col-12 col-md-7 col-lg-6 mr-lg-auto text-center text-md-left">
+                     <h2 class="bold opacity-auto" style="color:#3d85bc; text-shadow: 1px 1px 30px , 1px 1px 20px rgba(255, 255, 255, 0.1), 1px 1px 20px rgba(230, 230, 255, 0.1);">Dados de nosso banco de dados do servidor</h2>
+                     <p class="text-white opacity-4" style="text-shadow: 1px 1px 30px , 1px 1px 20px rgba(255, 255, 255, 0.1), 1px 1px 20px rgba(230, 230, 255, 1);">Na tabela abaixo você pode ver alguns dados do nosso banco de dados do servidor, é importante mencionar que todos os dados aqui vistos apresentam valores reais.</p>
+                  </div>
+                  <div class="col-12 col-md-5 col-lg-5">
+                     <div class="row no-gutters">
+                        <div class="col-6 mb-3 pr-3">
+                           <div class="rounded border shadow-box shadow-hover p-2 p-sm-3 d-flex align-items-center flex-wrap border-0" style="background-color: #448cf8;">
+                              <i class="fas fa-car icon font-lg text-white opacity-auto"></i>
+                              <div class="text-left">
+                                 <p class="counter font-md bold m-0 text-white opacity-auto" style="visibility: visible;">5634</p>
+                                 <p class="m-0 text-white opacity-8">Veículos</p>
+                              </div>
+                           </div>
+                        </div>
+                        <div class="col-6 mb-3">
+                           <div class="rounded border shadow-box shadow-hover p-2 p-sm-3 d-flex align-items-center flex-wrap border-0" style="background-color: #272727;">
+                              <i class="fas fa-home icon font-lg text-white opacity-7" style="text-shadow: 1px 1px 30px , 1px 1px 20px rgba(183, 135, 0, 0.1), 1px 1px 20px rgba(183, 135, 0, 0.1);"></i>
+                              <div class="text-left">
+                                 <p class="counter font-md bold m-0 text-white opacity-8" style="visibility: visible; text-shadow: 1px 1px 30px , 1px 1px 20px rgba(183, 135, 0, 0.1), 1px 1px 20px rgba(183, 135, 0, 0.1);">456</p>
+                                 <p class="m-0 text-white opacity-5" style="text-shadow: 1px 1px 30px , 1px 1px 20px rgba(183, 135, 0, 0.1), 1px 1px 20px rgba(183, 135, 0, 0.1);">Imobiliária</p>
+                              </div>
+                           </div>
+                        </div>
+                        <div class="col-6 pr-3">
+                           <div class="rounded border shadow-box shadow-hover p-2 p-sm-3 d-flex align-items-center flex-wrap border-0" style="background-color: #272727;">
+                              <i class="fas fa-user-friends icon font-lg text-white opacity-7" style="text-shadow: 1px 1px 30px , 1px 1px 20px rgba(183, 135, 0, 0.1), 1px 1px 20px rgba(183, 135, 0, 0.1);"></i>
+                              <div class="text-left">
+                                 <p class="counter font-md bold m-0 text-white opacity-8" style="visibility: visible; text-shadow: 1px 1px 30px , 1px 1px 20px rgba(183, 135, 0, 0.1), 1px 1px 20px rgba(183, 135, 0, 0.1);">23</p>
+                                 <p class="m-0 text-white opacity-5" style="text-shadow: 1px 1px 30px , 1px 1px 20px rgba(183, 135, 0, 0.1), 1px 1px 20px rgba(183, 135, 0, 0.1);">Facções</p>
+                              </div>
+                           </div>
+                        </div>
+                        <div class="col-6">
+                           <div class="rounded border shadow-box shadow-hover p-2 p-sm-3 d-flex align-items-center flex-wrap border-0" style="background-color: #272727;">
+                              <i class="fas fa-users-cog icon font-lg text-white opacity-7" style="text-shadow: 1px 1px 30px , 1px 1px 20px rgba(183, 135, 0, 0.1), 1px 1px 20px rgba(183, 135, 0, 0.1);"></i>
+                              <div class="text-left">
+                                 <p class="counter font-md bold m-0 text-white opacity-8" style="visibility: visible; text-shadow: 1px 1px 30px , 1px 1px 20px rgba(183, 135, 0, 0.1), 1px 1px 20px rgba(183, 135, 0, 0.1);">26</p>
+                                 <p class="m-0 text-white opacity-5" style="text-shadow: 1px 1px 30px , 1px 1px 20px rgba(183, 135, 0, 0.1), 1px 1px 20px rgba(183, 135, 0, 0.1);">Staffs</p>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </section>
+         <section class="section edge page-background-controls">
+            <img src="https://www.freepngimg.com/thumb/suit/82112-standing-shoulder-andreas-san-auto-iv-theft.png" class="char-left aos-init aos-animate" data-aos="fade-right" style="pointer-events: none; visibility: visible; z-index: 1; filter: drop-shadow(30px -22px 20px rgba(121, 121, 121, 0.3)); width: 17%;">
+            <img src="https://www.pinclipart.com/picdir/big/368-3682345_grand-theft-auto-v-png-hd-gta-5.png" class="char-right aos-init aos-animate" data-aos="fade-left" style="pointer-events: none; visibility: visible; z-index: 1; filter: drop-shadow(30px -22px 20px rgba(238, 90, 90, 0.3)); width: 17%;">
+            <div class="container">
+               <div class="row justify-content-center mr-tp-40">
+                  <div class="col-md-6">
+                     <div class="section-heading text-center">
+                        <i class="fas fa-question font-lg text-white opacity-8" style="text-shadow: 1px 1px 30px , 1px 1px 20px rgba(255, 255, 255, 0.1), 1px 1px 20px rgba(230, 230, 255, 0.1);"></i>
+                        <h2 class="light font-md display-md-4 text-light text-center mt-0 text-uppercase mt-2" style="text-shadow: 1px 1px 30px , 1px 1px 20px rgba(255, 255, 255, 0.1), 1px 1px 20px rgba(230, 230, 255, 0.1); font-weight: 400 !important;">Perguntas frequentes</h2>
+                        <h3 class="light font-sm text-light text-center mt-1" style="text-shadow: 1px 1px 30px , 1px 1px 20px rgba(255, 255, 255, 0.1), 1px 1px 20px rgba(230, 230, 255, 0.1);">Aqui você encontrará as perguntas mais frequentes dos jogadores, junto com as respostas. Pode valer a pena ler o que não está claro para você, ajudando a si mesmo também.</h3>
+                     </div>
+                  </div>
+                  <div class="col-md-7">
+                     <div class="accordion accordion-clean" id="common-faqs-accordion">
+                        <div class="card mb-3 border-0 text-center">
+                           <div class="card-header" style="background-color: #272727; text-shadow: 1px 1px 30px , 1px 1px 20px rgba(183, 135, 0, 0.2), 1px 1px 20px rgba(183, 135, 0, 0.2);"><a href="#" class="card-title btn collapsed text-white opacity-7" data-toggle="collapse" data-target="#q1" aria-expanded="false"><i class="fas fa-angle-down angle"></i> Como posso me conectar ao servidor?</a></div>
+                           <div id="q1" class="collapse" data-parent="#common-faqs-accordion">
+                              <div class="card-body" style="background-color: #2e2e2e; text-shadow: 1px 1px 30px , 1px 1px 20px rgba(183, 135, 0, 0.2), 1px 1px 20px rgba(183, 135, 0, 0.2);"><a class="text-white opacity-6">Para se conectar ao servidor, você precisará do jogo básico GTA San Andreas e do Multi Theft Auto. Você pode obter o jogo básico no iniciador Steam ou Rockstar. Após o download do jogo, você só precisa do cliente MTA, que pode ser acessado no seguinte link: https://multitheftauto.com/</a></div>
+                           </div>
+                        </div>
+                        <div class="card mb-3 border-0 text-center">
+                           <div class="card-header" style="background-color: #272727; text-shadow: 1px 1px 30px , 1px 1px 20px rgba(183, 135, 0, 0.2), 1px 1px 20px rgba(183, 135, 0, 0.2);"><a href="#" class="card-title btn collapsed text-white opacity-7" data-toggle="collapse" data-target="#q2" aria-expanded="false"><i class="fas fa-angle-down angle"></i> Quais são os benefícios de oferecer suporte ao servidor?</a></div>
+                           <div id="q2" class="collapse" data-parent="#common-faqs-accordion">
+                              <div class="card-body" style="background-color: #2e2e2e; text-shadow: 1px 1px 30px , 1px 1px 20px rgba(183, 135, 0, 0.2), 1px 1px 20px rgba(183, 135, 0, 0.2);"><a class="text-white opacity-6"> Ao apoiar o servidor, você receberá apenas um Ponto Premium, uma classificação de suporte em nosso fórum (deve ser reivindicado manualmente) e uma sala VIP em nosso servidor Discord caso possa provar sua compra. Do ponto premium, você tem a opção de comprar vagas de veículos e imóveis com as quais você pode expandir seu máximo de veículos / propriedades. Dos pontos premium, você ainda pode comprar vários itens extras na loja Premium com os quais você pode se destacar da multidão. É importante que o suporte não lhe dê direito a regras ou sanções.</a></div>
+                           </div>
+                        </div>
+                        <div class="card mb-3 border-0 text-center">
+                           <div class="card-header" style="background-color: #272727; text-shadow: 1px 1px 30px , 1px 1px 20px rgba(183, 135, 0, 0.2), 1px 1px 20px rgba(183, 135, 0, 0.2);"><a href="#" class="card-title btn collapsed text-white opacity-7" data-toggle="collapse" data-target="#q3" aria-expanded="false"><i class="fas fa-angle-down angle"></i> Como posso entrar em contato com a gerência do servidor?</a></div>
+                           <div id="q3" class="collapse" data-parent="#common-faqs-accordion">
+                              <div class="card-body" style="background-color: #2e2e2e; text-shadow: 1px 1px 30px , 1px 1px 20px rgba(183, 135, 0, 0.2), 1px 1px 20px rgba(183, 135, 0, 0.2);"><a class="text-white opacity-6"> Você pode entrar em contato com a gestão do servidor através da nossa página no Facebook, possivelmente Discord ou Fórum, clicando no ícone ao lado do texto "Fale Conosco" na página principal.</a></div>
+                           </div>
+                        </div>
+                        <div class="card border-0 text-center">
+                           <div class="card-header" style="background-color: #272727; text-shadow: 1px 1px 30px , 1px 1px 20px rgba(183, 135, 0, 0.2), 1px 1px 20px rgba(183, 135, 0, 0.2);"><a href="#" class="card-title btn collapsed text-white opacity-7" data-toggle="collapse" data-target="#q4" aria-expanded="false"><i class="fas fa-angle-down angle"></i> Como posso obter ajuda de Administradores / Assistentes Administrativos?</a></div>
+                           <div id="q4" class="collapse" data-parent="#common-faqs-accordion">
+                              <div class="card-body" style="background-color: #2e2e2e; text-shadow: 1px 1px 30px , 1px 1px 20px rgba(183, 135, 0, 0.2), 1px 1px 20px rgba(183, 135, 0, 0.2);"><a class="text-white opacity-6">Se você estiver travado e precisar de ajuda que apenas um administrador / assistente administrativo pode ajudá-lo, há várias maneiras de pedir ajuda a eles. A primeira solução é contatá-los por meio do servidor MTA. Tudo que você precisa fazer é pressionar o botão Home para abrir o Dashboard, selecionar o item de menu Admins e então selecionar o nível de administrador apropriado nas subcategorias. A segunda solução é visitar o servidor Discord com o administrador / assistente administrativo de que você precisa. A terceira solução é o Fórum, que funciona de acordo com o mesmo princípio de uma visita ao Discord, apenas por escrito.</a></div>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+            </div>
+         </section>
+         <section class="section block bg-contrast">
+            <div class="icons-wrapper position-absolute" style="z-index: 0; filter: blur(3px);">
+               <div class="floating icon icon-xl rounded-circle p-3 shadow m-0 absolute d-flex justify-content-center align-items-center aos-init aos-animate" style="left: 100px; top: 300px; background-color: #272727;" data-aos="fade-left"><i class="fas fa-dollar-sign text-white opacity-7" style="font-size: 40px;"></i></div>
+               <div class="floating icon icon-xxl rounded-circle p-3 shadow m-0 absolute d-flex justify-content-center align-items-center aos-init aos-animate" style="left: 1400px; top: 100px; background-color: #272727;" data-aos="fade-left"><i class="fas fa-shopping-basket text-white opacity-7" style="font-size:65px;"></i></div>
+               <div class="floating icon icon-xxl rounded-circle p-3 shadow m-0 absolute d-flex justify-content-center align-items-center aos-init aos-animate" style="left: 1650px; top: 250px; background-color: #272727;" data-aos="fade-left"><i class="far fa-gem text-white opacity-7" style="font-size: 55px;"></i></div>
+               <div class="floating icon icon-2xl rounded-circle p-3 shadow m-0 absolute d-flex justify-content-center align-items-center aos-init aos-animate" style="left: 1600px; top: 500px; background-color: #272727;" data-aos="fade-left"><i class="fas fa-comment-dollar text-white opacity-7" style="font-size: 90px;"></i></div>
+               <div class="floating icon icon-xxl rounded-circle p-3 shadow m-0 absolute d-flex justify-content-center align-items-center aos-init aos-animate" style="left: 120px; top: 530px; background-color: #272727;" data-aos="fade-left"><i class="fas fa-shopping-bag text-white opacity-7" style="font-size: 65px;"></i></div>
+               <div class="floating icon icon-xl rounded-circle p-3 shadow m-0 absolute d-flex justify-content-center align-items-center aos-init aos-animate" style="left: 380px; top: 102px; background-color: #272727;" data-aos="fade-left"><i class="fas fa-gift text-white opacity-7" style="font-size: 40px;"></i></div>
+            </div>
+            <div id="bganimation2"></div>
+            <div class="container py-4">
+               <div class="row justify-content-center mt-3 gap-y">
+                  <div class="col-md-12">
+                     <div class="section-heading text-center">
+                        <i class="fas fa-shopping-basket font-lg text-white opacity-8" style="text-shadow: 1px 1px 30px , 1px 1px 20px rgba(255, 255, 255, 0.1), 1px 1px 20px rgba(230, 230, 255, 0.1);"></i>
+                        <h2 class="light font-md display-md-4 text-light text-center text-uppercase mt-2" style="text-shadow: 1px 1px 30px , 1px 1px 20px rgba(255, 255, 255, 0.1), 1px 1px 20px rgba(230, 230, 255, 0.1); font-weight: 400 !important;">OPÇÕES DE SUPORTE</h2>
+                        <h3 class="light font-sm text-light text-center mt-1" style="text-shadow: 1px 1px 30px , 1px 1px 20px rgba(255, 255, 255, 0.1), 1px 1px 20px rgba(230, 230, 255, 0.1);">Aqui você pode encontrar os pacotes premium no servidor, para que possa oferecer suporte ao nosso servidor ou a você mesmo, se desejar!</h3>
+                     </div>
+                  </div>
+                  <div class="col-12 col-sm-6 col-md-3">
+                     <div class="py-4 rounded shadow pricing text-center" style="background-color: #272727; border-bottom: 5px solid #b08d57; filter: drop-shadow(0px 0px 50px rgba(223, 223, 223, 0.4));">
+                        <h2 class="bold mb-5 text-uppercase opacity-8" style=" font-size:22px; color: #b08d57; text-shadow: 1px 1px 30px , 1px 1px 20px rgba(183, 135, 0, 0.1), 1px 1px 20px rgba(183, 135, 0, 0.1);" >VIP Bronze</h2>
+                        <div class="icon-shape mb-5">
+                           <div class="rounded-circle p-3 d-flex align-items-center justify-content-center icon-xl center-xy opacity-8"><i class="far fa-gem font-lg" style="color: #b08d57; text-shadow: 1px 1px 30px , 1px 1px 20px rgba(183, 135, 0, 0.1), 1px 1px 20px rgba(183, 135, 0, 0.1);"></i></div>
+                        </div>
+                        <ul class="list-unstyled">
+                           <li class="text-white opacity-7 text-uppercase" style="font-size: 15px; font-weight: 400; text-shadow: 1px 1px 30px , 1px 1px 20px rgba(183, 135, 0, 0.1), 1px 1px 20px rgba(183, 135, 0, 0.1);"><i class="fas fa-coins mr-1"></i>500 PremiumPoints serão creditados.</li>
+                        </ul>
+                        <div class="pricing-value text-info"><span class="price" style="text-shadow: 1px 1px 30px , 1px 1px 20px rgba(183, 135, 0, 0.1), 1px 1px 20px rgba(183, 135, 0, 0.1);">15,00</span></div>
+                        <a href="#" class="btn btn-rounded btn-outline-info mt-3 text-uppercase"><i class="fas fa-shopping-basket mr-2"></i>Comprar</a>
+                     </div>
+                  </div>
+                  <div class="col-12 col-sm-6 col-md-3">
+                     <div class="py-4 rounded shadow pricing text-center opacity-8" style="background-color: #272727; border-bottom: 5px solid #C0C0C0; filter: drop-shadow(0px 0px 50px rgba(223, 223, 223, 0.4));">
+                        <h2 class="bold mb-5 text-uppercase" style=" font-size:22px;  color: #C0C0C0;  text-shadow: 1px 1px 30px , 1px 1px 20px rgba(183, 135, 0, 0.1), 1px 1px 20px rgba(183, 135, 0, 0.1);">VIP Prata</h2>
+                        <div class="icon-shape mb-5">
+                           <div class="rounded-circle p-3 d-flex align-items-center justify-content-center icon-xl center-xy opacity-8"><i class="far fa-gem font-lg" style="color: 	#C0C0C0 ; text-shadow: 1px 1px 30px , 1px 1px 20px rgba(183, 135, 0, 0.1), 1px 1px 20px rgba(183, 135, 0, 0.1);"></i></div>
+                        </div>
+                        <ul class="list-unstyled">
+                           <li class="text-white opacity-7 text-uppercase" style="font-size: 15px; font-weight: 400; text-shadow: 1px 1px 30px , 1px 1px 20px rgba(183, 135, 0, 0.1), 1px 1px 20px rgba(183, 135, 0, 0.1);"><i class="fas fa-coins mr-1"></i>1.000 PremiumPoints serão creditados.</li>
+                        </ul>
+                        <div class="pricing-value text-info"><span class="price" style="text-shadow: 1px 1px 30px , 1px 1px 20px rgba(183, 135, 0, 0.1), 1px 1px 20px rgba(183, 135, 0, 0.1);">20,00</span></div>
+                        <a href="#" class="btn btn-rounded btn-outline-info mt-3 text-uppercase"><i class="fas fa-shopping-basket mr-2"></i>Comprar</a>
+                     </div>
+                  </div>
+                  <div class="col-12 col-sm-6 col-md-3">
+                     <div class="py-4 rounded text-contrast shadow pricing text-center" style="background-color: #272727; border-bottom: 5px solid #FFD700; filter: drop-shadow(0px 0px 50px rgba(223, 223, 223, 0.4));">
+                        <h2 class="bold mb-5 text-uppercase opacity-8" style=" font-size:22px; color: #FFD700;  text-shadow: 1px 1px 30px , 1px 1px 20px rgba(183, 135, 0, 0.1), 1px 1px 20px rgba(183, 135, 0, 0.1);">VIP Ouro</h2>
+                        <div class="icon-shape mb-5">
+                           <div class="rounded-circle p-3 d-flex align-items-center justify-content-center icon-xl center-xy opacity-8"><i class="far fa-gem font-lg" style="color: 	#FFD700 ; text-shadow: 1px 1px 30px , 1px 1px 20px rgba(183, 135, 0, 0.1), 1px 1px 20px rgba(183, 135, 0, 0.1);"></i></div>
+                        </div>
+                        <ul class="list-unstyled">
+                           <li class="text-white opacity-7 text-uppercase" style="font-size: 15px; font-weight: 400; text-shadow: 1px 1px 30px , 1px 1px 20px rgba(183, 135, 0, 0.1), 1px 1px 20px rgba(183, 135, 0, 0.1);"><i class="fas fa-coins mr-1"></i>1.000 PremiumPoints serão creditados.</li>
+                        </ul>
+                        <div class="pricing-value text-info"><span class="price" style="text-shadow: 1px 1px 30px , 1px 1px 20px rgba(183, 135, 0, 0.1), 1px 1px 20px rgba(183, 135, 0, 0.1);">20,00</span></div>
+                        <a href="#" class="btn btn-rounded btn-outline-info mt-3 text-uppercase"><i class="fas fa-shopping-basket mr-2"></i>Comprar</a>
+                     </div>
+                  </div>
+                  <div class="col-12 col-sm-6 col-md-3">
+                     <div class="py-4 rounded shadow pricing text-center" style="background-color: #272727; border-bottom: 5px solid #47ddff; filter: drop-shadow(0px 0px 50px rgba(223, 223, 223, 0.4));">
+                        <h2 class="bold mb-5 text-uppercase opacity-8" style="  font-size:22px;  color: #47ddff; text-shadow: 1px 1px 30px , 1px 1px 20px rgba(183, 135, 0, 0.1), 1px 1px 20px rgba(183, 135, 0, 0.1);" >VIP Diamante</h2>
+                        <div class="icon-shape mb-5">
+                           <div class="rounded-circle p-3 d-flex align-items-center justify-content-center icon-xl center-xy opacity-8"><i class="far fa-gem font-lg" style="color: #47ddff; text-shadow: 1px 1px 30px , 1px 1px 20px rgba(183, 135, 0, 0.1), 1px 1px 20px rgba(183, 135, 0, 0.1);"></i></div>
+                        </div>
+                        <ul class="list-unstyled">
+                           <li class="text-white opacity-7 text-uppercase" style="font-size: 15px; font-weight: 400; text-shadow: 1px 1px 30px , 1px 1px 20px rgba(183, 135, 0, 0.1), 1px 1px 20px rgba(183, 135, 0, 0.1);"><i class="fas fa-coins mr-1"></i>5.000 PremiumPoints serão creditados.</li>
+                        </ul>
+                        <div class="pricing-value text-info"><span class="price" style="text-shadow: 1px 1px 30px , 1px 1px 20px rgba(183, 135, 0, 0.1), 1px 1px 20px rgba(183, 135, 0, 0.1);">30,00</span></div>
+                        <a href="#" class="btn btn-rounded btn-outline-info mt-3 text-uppercase"><i class="fas fa-shopping-basket mr-2"></i>Comprar</a>
+                     </div>
+                  </div>
+                  <div class="col-12 col-sm-6 col-md-3">
+                     <div class="py-4 rounded shadow pricing text-center" style="background-color: #272727; border-bottom: 5px solid #e70000; filter: drop-shadow(0px 0px 50px rgba(223, 223, 223, 0.4));">
+                        <h2 class="bold mb-5 text-uppercase opacity-8" style="  font-size:22px;  color: #e70000; text-shadow: 1px 1px 30px , 1px 1px 20px rgba(183, 135, 0, 0.1), 1px 1px 20px rgba(183, 135, 0, 0.1);" >VIP Supreme</h2>
+                        <div class="icon-shape mb-5">
+                           <div class="rounded-circle p-3 d-flex align-items-center justify-content-center icon-xl center-xy opacity-8"><i class="far fa-gem font-lg" style="color: #e70000; text-shadow: 1px 1px 30px , 1px 1px 20px rgba(183, 135, 0, 0.1), 1px 1px 20px rgba(183, 135, 0, 0.1);"></i></div>
+                        </div>
+                        <ul class="list-unstyled">
+                           <li class="text-white opacity-7 text-uppercase" style="font-size: 15px; font-weight: 400; text-shadow: 1px 1px 30px , 1px 1px 20px rgba(183, 135, 0, 0.1), 1px 1px 20px rgba(183, 135, 0, 0.1);"><i class="fas fa-coins mr-1"></i>5.000 PremiumPoints serão creditados.</li>
+                        </ul>
+                        <div class="pricing-value text-info"><span class="price" style="text-shadow: 1px 1px 30px , 1px 1px 20px rgba(183, 135, 0, 0.1), 1px 1px 20px rgba(183, 135, 0, 0.1);">30,00</span></div>
+                        <a href="#" class="btn btn-rounded btn-outline-info mt-3 text-uppercase"><i class="fas fa-shopping-basket mr-2"></i>Comprar</a>
+                     </div>
+                  </div>
+                  <div class="col-12 col-sm-6 col-md-3">
+                     <div class="py-4 rounded shadow pricing text-center" style="background-color: #272727; border-bottom: 5px solid #8803ff; filter: drop-shadow(0px 0px 50px rgba(223, 223, 223, 0.4));">
+                        <h2 class="bold mb-5 text-uppercase opacity-8" style="  font-size:22px;  color: #8803ff; text-shadow: 1px 1px 30px , 1px 1px 20px rgba(183, 135, 0, 0.1), 1px 1px 20px rgba(183, 135, 0, 0.1);" >VIP Reliquia</h2>
+                        <div class="icon-shape mb-5">
+                           <div class="rounded-circle p-3 d-flex align-items-center justify-content-center icon-xl center-xy opacity-8"><i class="far fa-gem font-lg" style="color: #8803ff; text-shadow: 1px 1px 30px , 1px 1px 20px rgba(183, 135, 0, 0.1), 1px 1px 20px rgba(183, 135, 0, 0.1);"></i></div>
+                        </div>
+                        <ul class="list-unstyled">
+                           <li class="text-white opacity-7 text-uppercase" style="font-size: 15px; font-weight: 400; text-shadow: 1px 1px 30px , 1px 1px 20px rgba(183, 135, 0, 0.1), 1px 1px 20px rgba(183, 135, 0, 0.1);"><i class="fas fa-coins mr-1"></i>5.000 PremiumPoints serão creditados.</li>
+                        </ul>
+                        <div class="pricing-value text-info"><span class="price" style="text-shadow: 1px 1px 30px , 1px 1px 20px rgba(183, 135, 0, 0.1), 1px 1px 20px rgba(183, 135, 0, 0.1);">30,00</span></div>
+                        <a href="#" class="btn btn-rounded btn-outline-info mt-3 text-uppercase"><i class="fas fa-shopping-basket mr-2"></i>Comprar</a>
+                     </div>
+                  </div>
+                  <div class="col-md-6">
+                     <div class="alert alert-dismissible fade show mt-5 text-center" role="alert" style="filter: drop-shadow(0px 0px 50px rgba(223, 223, 223, 0.4)); background-color: #272727;">
+                        <strong class="text-info" style="text-shadow: 1px 1px 30px , 1px 1px 20px rgba(183, 135, 0, 0.1), 1px 1px 20px rgba(183, 135, 0, 0.1);">INFOFMAÇÃO!<BR></strong> <span class="text-white opacity-6" style="text-shadow: 1px 1px 30px , 1px 1px 20px rgba(183, 135, 0, 0.1), 1px 1px 20px rgba(183, 135, 0, 0.1);">Os pacotes estão indisponíveis no momento e não estarão disponíveis até que sejam abertos!</span>
+                        <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+                        <i class="fas fa-times text-white"></i>
+                        </button>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </section>
+         <section class="section b-b b-t page-background-controls">
+            <img src="https://i.pinimg.com/originals/e4/cd/b2/e4cdb2f3a37d3b04c876d315a36a61a8.png" class="char-right aos-init aos-animate" data-aos="fade-left" style="pointer-events: none; visibility: visible; z-index: 1; filter: drop-shadow(30px -22px 20px rgba(72, 134, 250, 0.3)); width: 15%;">
+            <div class="container">
+               <div class="section-heading text-center">
+                  <i class="fas fa-walking font-lg text-white opacity-8" style="text-shadow: 1px 1px 30px , 1px 1px 20px rgba(255, 255, 255, 0.1), 1px 1px 20px rgba(230, 230, 255, 0.1);"></i>
+                  <h2 class="light font-md display-md-4 text-light text-center mt-2 text-uppercase" style="text-shadow: 1px 1px 30px , 1px 1px 20px rgba(255, 255, 255, 0.1), 1px 1px 20px rgba(230, 230, 255, 0.1); font-weight: 400 !important;">JUNTE-SE A NOSSA COMUNIDADE</h2>
+                  <h3 class="light font-sm text-light text-center mt-1" style="text-shadow: 1px 1px 30px , 1px 1px 20px rgba(255, 255, 255, 0.1), 1px 1px 20px rgba(230, 230, 255, 0.1);">Faça parte da nossa comunidade com apenas alguns cliques e experimente as experiências reais do RP conosco enquanto ganha experiências para toda a vida em um mundo virtual.</h3>
+               </div>
+               <div class="row align-items-end">
+                  <div class="col-lg-4">
+                     <h2 class="bold" style="color: #50a2f0; text-shadow: 1px 1px 30px , 1px 1px 20px rgba(255, 255, 255, 0.1), 1px 1px 20px rgba(230, 230, 255, 0.1);">PARTICIPAR DO CASAL<br><span class="light">COM UM PASSO SIMPLES</span></h2>
+                     <p class="lead text-white opacity-7" style="text-shadow: 1px 1px 30px , 1px 1px 20px rgba(255, 255, 255, 0.1), 1px 1px 20px rgba(230, 230, 255, 0.1);">Para se conectar ao nosso servidor, você precisará do jogo GTA: SA e também do MTA. Assim que os dois jogos estiverem disponíveis para você, abra o MTA, conecte o 174 Roleplay ao localizador de servidor e junte-se a nós!</p>
+                     <a href="https://www.facebook.com/caseroleplay" class="btn btn-light btn-rounded mt-4">Envie-nos uma mensagem no Facebook<i class="ml-3 fas fa-long-arrow-alt-right"></i></a> 
+                     <ol id="sw-nav-tools" class="nav nav-process nav-circle nav-justified mt-5">
+                        <li class="nav-item"><a class="nav-link" href="#" data-step="1"><small class="mt-4 absolute text-white bold opacity-8">GTA:SA</small></a></li>
+                        <li class="nav-item"><a class="nav-link" href="#" data-step="2"><small class="mt-4 absolute text-white bold opacity-8">MTA:SA</small></a></li>
+                        <li class="nav-item active"><a class="nav-link" href="#" data-step="3"><small class="mt-4 absolute text-white bold opacity-8">CONEXÃO</small></a></li>
+                     </ol>
+                  </div>
+                  <div class="col-lg-7 ml-lg-auto">
+                     <div class="browser shadow mt-4 mt-md-0 aos-init aos-animate" data-aos="fade-left" style="filter: drop-shadow(0px 0px 50px rgba(71, 155, 233, 0.4));">
+                        <div class="swiper-container swiper-container-initialized swiper-container-horizontal" data-sw-navigation="#sw-nav-tools">
+                           <div class="swiper-wrapper" style="transform: translate3d(-2115px, 0px, 0px); transition-duration: 0ms;">
+                              <div class="swiper-slide swiper-slide-duplicate swiper-slide-duplicate-next" data-swiper-slide-index="3" style="width: 705px;"><img src="https://i.imgur.com/lRPc2Yv.png" alt="" class="img-responsive"></div>
+                              <div class="swiper-slide" data-swiper-slide-index="0" style="width: 705px;"><img src="https://i.imgur.com/lRPc2Yv.png" alt="" class="img-responsive"></div>
+                              <div class="swiper-slide swiper-slide-prev" data-swiper-slide-index="1" style="width: 705px;"><img src="https://i.imgur.com/EdSYtPT.png" alt="" class="img-responsive"></div>
+                              <div class="swiper-slide swiper-slide-active" data-swiper-slide-index="2" style="width: 705px;"><img src="https://i.imgur.com/S3BLWc5.png" alt="" class="img-responsive"></div>
+                              <div class="swiper-slide swiper-slide-next" data-swiper-slide-index="3" style="width: 705px;"><img src="https://i.imgur.com/rrZGWDJ.png" alt="" class="img-responsive"></div>
+                              <div class="swiper-slide swiper-slide-duplicate" data-swiper-slide-index="0" style="width: 705px;"><img src="https://i.imgur.com/rrZGWDJ.png" alt="" class="img-responsive"></div>
+                           </div>
+                           <span class="swiper-notification" aria-live="assertive" aria-atomic="true"></span>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </section>
+         <section class="section bg-light edge">
+            <div class="icons-wrapper position-absolute" style="z-index: 0; filter: blur(3px);">
+               <div class="floating icon icon-xl rounded-circle p-3 shadow m-0 absolute d-flex justify-content-center align-items-center aos-init aos-animate" style="left: 100px; top: 300px; background-color: #272727;" data-aos="fade-left"><i class="fab fa-youtube text-white opacity-7" style="font-size: 40px;"></i></div>
+               <div class="floating icon icon-xxl rounded-circle p-3 shadow m-0 absolute d-flex justify-content-center align-items-center aos-init aos-animate" style="left: 1400px; top: 100px; background-color: #272727;" data-aos="fade-left"><i class="fab fa-youtube text-white opacity-7" style="font-size:65px;"></i></div>
+               <div class="floating icon icon-xxl rounded-circle p-3 shadow m-0 absolute d-flex justify-content-center align-items-center aos-init aos-animate" style="left: 1650px; top: 250px; background-color: #272727;" data-aos="fade-left"><i class="fab fa-youtube text-white opacity-7" style="font-size: 55px;"></i></div>
+               <div class="floating icon icon-2xl rounded-circle p-3 shadow m-0 absolute d-flex justify-content-center align-items-center aos-init aos-animate" style="left: 1600px; top: 500px; background-color: #272727;" data-aos="fade-left"><i class="fab fa-youtube text-white opacity-7" style="font-size: 90px;"></i></div>
+               <div class="floating icon icon-xxl rounded-circle p-3 shadow m-0 absolute d-flex justify-content-center align-items-center aos-init aos-animate" style="left: 120px; top: 530px; background-color: #272727;" data-aos="fade-left"><i class="fab fa-youtube text-white opacity-7" style="font-size: 65px;"></i></div>
+               <div class="floating icon icon-xl rounded-circle p-3 shadow m-0 absolute d-flex justify-content-center align-items-center aos-init aos-animate" style="left: 380px; top: 102px; background-color: #272727;" data-aos="fade-left"><i class="fab fa-youtube text-white opacity-7" style="font-size: 40px;"></i></div>
+            </div>
+            <div id="bganimation3"></div>
+            <div class="container pt-6">
+               <div class="section-heading text-center">
+                  <i class="fab fa-youtube font-lg text-white opacity-8" style="text-shadow: 1px 1px 30px , 1px 1px 20px rgba(255, 255, 255, 0.1), 1px 1px 20px rgba(230, 230, 255, 0.1);"></i>
+                  <h2 class="light font-md display-md-4 text-light text-center mt-2 text-uppercase" style="text-shadow: 1px 1px 30px , 1px 1px 20px rgba(255, 255, 255, 0.1), 1px 1px 20px rgba(230, 230, 255, 0.1); font-weight: 400 !important;">VÍDEOS SOBRE O SERVIDOR</h2>
+                  <h3 class="light font-sm text-light text-center mt-1" style="text-shadow: 1px 1px 30px , 1px 1px 20px rgba(255, 255, 255, 0.1), 1px 1px 20px rgba(230, 230, 255, 0.1);"> Aqui você pode encontrar os vídeos mais recentes do servidor e acessá-los com o toque de um botão!</h3>
+               </div>
+               <div class="row gap-y">
+                  <div class="col-12 col-sm-6 col-md-4">
+                     <div class="card shadow-box shadow-hover" style="background-color: #272727; border-bottom: 5px solid #3d85bc; filter: drop-shadow(0px 0px 50px rgba(223, 223, 223, 0.4));">
+                        <a target="_blank" href="https://youtu.be/Uj1DBC8kLhc" class="overlay alpha-3 p-6 image-background cover" style="background-image: url(https://imgur.com/6K5dPBA.png)" data-effect="mfp-fade" data-type="iframe">
+                           <div class="content text-center"> 
+                              <i class="fas fa-play font-lg text-white" style="text-shadow: 1px 1px 30px , 1px 1px 20px rgba(183, 135, 0, 0.1), 1px 1px 20px rgba(183, 135, 0, 0.1);"></i>
+                           </div>
+                        </a>
+                        <div class="card-body text-center">
+                           <h4 class="card-title regular text-white oapcity-8" style="font-size: 20px; text-shadow: 1px 1px 30px , 1px 1px 20px rgba(183, 135, 0, 0.1), 1px 1px 20px rgba(183, 135, 0, 0.1);">Tutorial 174 Roleplay #1</h4>
+                           <p class="card-text text-white opacity-5" style="text-shadow: 1px 1px 30px , 1px 1px 20px rgba(183, 135, 0, 0.1), 1px 1px 20px rgba(183, 135, 0, 0.1);">Um Simples Tutorial De Como Entrar No Servidor</p>
+                        </div>
+                     </div>
+                  </div>
+                  <div class="col-12 col-sm-6 col-md-4">
+                     <div class="card shadow-box shadow-hover" style="background-color: #272727; border-bottom: 5px solid #3d85bc; filter: drop-shadow(0px 0px 50px rgba(100, 149, 255, 0.4));">
+                        <a target="_blank" href="https://youtu.be/8Gb6DEwcNTY" class="overlay alpha-3 p-6 image-background cover" style="background-image: url(https://imgur.com/6K5dPBA.png)" data-effect="mfp-fade" data-type="iframe">
+                           <div class="content text-center">
+                              <i class="fas fa-play font-lg text-white" style="text-shadow: 1px 1px 30px , 1px 1px 20px rgba(183, 135, 0, 0.1), 1px 1px 20px rgba(183, 135, 0, 0.1);"></i>
+                           </div>
+                        </a>
+                        <div class="card-body text-center">
+                           <h4 class="card-title regular text-white oapcity-8" style="font-size: 20px; text-shadow: 1px 1px 30px , 1px 1px 20px rgba(183, 135, 0, 0.1), 1px 1px 20px rgba(183, 135, 0, 0.1);">Tutorial 174 Roleplay #2</h4>
+                           <p class="card-text text-white opacity-5" style="text-shadow: 1px 1px 30px , 1px 1px 20px rgba(183, 135, 0, 0.1), 1px 1px 20px rgba(183, 135, 0, 0.1);">Um Simples Tutorial De Como Entrar No Servidor</p>
+                        </div>
+                     </div>
+                  </div>
+                  <div class="col-12 col-sm-6 col-md-4">
+                     <div class="card shadow-box shadow-hover" style="background-color: #272727; border-bottom: 5px solid #3d85bc; filter: drop-shadow(0px 0px 50px rgba(223, 223, 223, 0.4));">
+                        <a target="_blank" href="https://youtu.be/NJV8DgobWmw" class="overlay alpha-3 p-6 image-background cover" style="background-image: url(https://imgur.com/6K5dPBA.png)" data-effect="mfp-fade" data-type="iframe">
+                           <div class="content text-center">
+                              <i class="fas fa-play font-lg text-white" style="text-shadow: 1px 1px 30px , 1px 1px 20px rgba(183, 135, 0, 0.1), 1px 1px 20px rgba(183, 135, 0, 0.1);"></i>
+                           </div>
+                        </a>
+                        <div class="card-body text-center">
+                           <h4 class="card-title regular text-white oapcity-8" style="font-size: 20px; text-shadow: 1px 1px 30px , 1px 1px 20px rgba(183, 135, 0, 0.1), 1px 1px 20px rgba(183, 135, 0, 0.1);">Tutorial Cidade Real Roleplay #3</h4>
+                           <p class="card-text text-white opacity-5" style="text-shadow: 1px 1px 30px , 1px 1px 20px rgba(183, 135, 0, 0.1), 1px 1px 20px rgba(183, 135, 0, 0.1);">Um Simples Tutorial De Como Entrar No Servidor</p>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </section>
+         <footer class="site-footer section" style="background-color: #272727;">
+            <div class="container py-4">
+               <div class="row gap-y">
+                  <div class="col-md-3">
+                     <img src="images/logo.png" alt="" class="logo mt-2" style="filter: drop-shadow(5px 5px 5px rgba(255, 255, 255, 0.3));">
+                  </div>
+                  <div class="col-md-6">
+                     <nav class="text-center">
+                        <div class="mt-3 text-white opacity-8" style="text-shadow: 1px 1px 30px , 1px 1px 20px rgba(255, 255, 255, 0.1), 1px 1px 20px rgba(230, 230, 255, 0.1);"><i class="far fa-copyright mr-1"></i> Copyright @ 2021 - www.cdrroleplay.unaux.com | Todos os direitos reservados!
+                        </div>
+                        <div class="mt-1 text-white opacity-9" style="text-shadow: 1px 1px 30px , 1px 1px 20px rgba(255, 255, 255, 0.1), 1px 1px 20px rgba(230, 230, 255, 0.1);"><i class="fas fa-terminal mr-1"></i> CREATED BY: <a class="text-warning" href="https://www.instagram.com//">Tio Lope Scripter#2721</a>
+                        </div>
+                     </nav>
+                  </div>
+                  <div class="col-md-3">
+                     <nav class="nav flex-column small">
+                        <div class="d-flex align-items-center text-uppercase text-warning" style="text-shadow: 1px 1px 30px , 1px 1px 20px rgba(255, 255, 255, 0.1), 1px 1px 20px rgba(230, 230, 255, 0.1);"><i class="fas fa-user-edit mr-2"></i> <a class="text-warning" href="">Termos e Condições Gerais</a>
+                        </div>
+                        <div class="mt-2 d-flex align-items-center text-uppercase text-success" style="text-shadow: 1px 1px 30px , 1px 1px 20px rgba(255, 255, 255, 0.1), 1px 1px 20px rgba(230, 230, 255, 0.1);"><i class="fas fa-shield-alt mr-2"></i> <a class="text-success" href="">Acordo de Privacidade</a>
+                        </div>
+                        <div class="mt-2 d-flex align-items-center text-white" style="text-shadow: 1px 1px 30px , 1px 1px 20px rgba(255, 255, 255, 0.1), 1px 1px 20px rgba(230, 230, 255, 0.1);"><i class="fas fa-envelope mr-2"></i> <a class="text-white" href="pedromayrinckfile5@suporte.com">pedromayrinckfile5@suporte.com</a></div>
+                     </nav>
+                  </div>
+               </div>
+            </div>
+         </footer>
+      </main>
+   </body>
+   <script src="js\script.js"></script>
+</html>
